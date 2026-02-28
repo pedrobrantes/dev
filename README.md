@@ -15,13 +15,19 @@ The following templates are available:
 - `rust`: Rust environment with Cargo, cargo-edit, and cargo-watch.
 - `python`: Python environment with uv and essential native libraries.
 - `node`: Node.js LTS environment with NPM.
+- `go`: Go development environment.
+- `android`: Android development environment.
+- `c`: C development environment.
+- `postgres`: PostgreSQL development environment.
+- `r`: R development environment.
+- `javascript`: JavaScript development environment.
 
 ## Usage
 
 To initialize a new project using one of these templates, run:
 
 ```bash
-# Replace <template> with rust, python, or node
+# Replace <template> with rust, python, node, go, android, c, postgres, r, or javascript
 devenv init --template github:pedrobrantes/dev#<template>
 ```
 
