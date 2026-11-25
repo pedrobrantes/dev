@@ -9,7 +9,7 @@
   scripts = {
     fmt.exec = "echo 'Configure styler if needed'";
     lint.exec = "echo 'Configure lintr if needed'";
-    test.exec = "Rscript -e 'if (dir.exists("tests")) testthat::test_local() else message("No tests/ directory")'";
+    test.exec = ''Rscript -e 'if (dir.exists("tests")) testthat::test_local() else message("No tests/ directory")' '';
     check.exec = "test";
   };
 
