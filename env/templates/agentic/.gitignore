@@ -1,0 +1,21 @@
+# Secrets & environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Devenv / Direnv
+.devenv/
+.devenv.*
+.direnv/
+result
+
+# Python & Agentic
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+evals/results/
+*.trace.json

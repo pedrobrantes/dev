@@ -1,0 +1,24 @@
+# Secrets & environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Devenv / Direnv
+.devenv/
+.devenv.*
+.direnv/
+result
+
+# Python & Data
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.duckdb
+*.duckdb.wal
+*.parquet
+*.csv
+!data/sample/*.csv

@@ -3,13 +3,33 @@
 
   outputs = { self }: {
     templates = {
-      rust = {
-        path = ./env/templates/rust;
-        description = "Rust development environment";
+      base = {
+        path = ./env/templates/base;
+        description = "Minimal agent-ready environment with security git-hooks";
       };
       python = {
         path = ./env/templates/python;
         description = "Python development environment";
+      };
+      data = {
+        path = ./env/templates/data;
+        description = "Analytics Engineering & Data environment (Python, DuckDB, SQLFluff)";
+      };
+      agentic = {
+        path = ./env/templates/agentic;
+        description = "AI Agents, MCP, and LLM apps environment (Python, uv, evals)";
+      };
+      typescript = {
+        path = ./env/templates/typescript;
+        description = "TypeScript development environment (Node/Bun, Biome, Vitest)";
+      };
+      infra = {
+        path = ./env/templates/infra;
+        description = "Infrastructure as Code & DevOps environment (OpenTofu, ShellCheck, Hadolint, SOPS)";
+      };
+      rust = {
+        path = ./env/templates/rust;
+        description = "Rust development environment";
       };
       node = {
         path = ./env/templates/node;
