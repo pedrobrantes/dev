@@ -1,0 +1,15 @@
+# Secrets & environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Devenv / Direnv
+.devenv/
+.devenv.*
+.direnv/
+result
+
+# Rust
+/target/

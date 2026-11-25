@@ -1,0 +1,20 @@
+# Secrets & environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Devenv / Direnv
+.devenv/
+.devenv.*
+.direnv/
+result
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+dist/

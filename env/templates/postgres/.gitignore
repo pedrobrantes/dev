@@ -1,0 +1,16 @@
+# Secrets & environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Devenv / Direnv
+.devenv/
+.devenv.*
+.direnv/
+result
+
+# SQL / Data dumps
+*.dump
+*.sql.gz
